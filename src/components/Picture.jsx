@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from '../assets/img1.jpg'
 import img2 from '../assets/img2.jpg'
 import img3 from '../assets/img3.jpg'
 import img4 from '../assets/img4.jpg'
@@ -17,15 +18,16 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
+    { Image: img1, title: 'Februari 11, 2024', description: "Ini pertama kali aku ajak kamu foto, kinda cutee<33 aku mau kasi scrapbook tapi ketinggalan dirumah:("},   
     { Image: img2, title: 'April 14, 2024', description: "Ini pertama kali ke warpat dapet pemandangan yang cantik bgt sambil ditemani oleh mas mas jawa idaman akuuu eheheh :p"},   
     { Image: img3, title: 'April 27, 2024', description: "Bingung mau jalan kemana akhirnya berangkat lah ke cafe Kedai Kopi Semangat, lumayan jauh sih dari rumahku fyi pegel pantat saya bangg wkwkwk"},
     { Image: img4, title: 'Mei 1, 2024', description: "Pertama kali kita ke Blok M bareng. Seruu!!! aku jadi tau tempat-tempat yang belum pernah aku datengin"},
     { Image: img5, title: 'Mei 18, 2024', description: "Kali kedua ps bareng di warung garasi, kali ini sudah tidak canggung buat foto bareng ya dibanding pertama kali kesini XD"},
     { Image: img6, title: 'Mei 26, 2024', description: "Konser date ceritanya. Konser pertama yang kita tonton bareng itu Pesta Semalam Minggu di Meikarta. Tentu nya gs nya ada guyonwaton dan ndx karena aku sangat pengen sekali nonton itu haha"},
     { Image: img7, title: 'Juni 23, 2024', description: "Pertama kali aku naik LRT karena diajakin sm kamu XD, biasanya kita naik MRT atau KRL kan haha. Ini kita baru balik kuliah langsung cabut~~"},
-    { Image: img8, title: 'Oktober 19, 2024', description: "That's My Birthday yuhuu~~ pas itu aku pengen naik bianglala aeon, yaa tetap kamu turutin walupun ini mahal ges udah gitu perjalanannya jauh sekali :'' tapi aku tetep seneng bgt hari itu :3"},
-    { Image: img9, title: 'November 27, 2024', description: "Aku pengen bgt ke Bandung terus foto bedua di jalan Braga bareng kamu dan yaa terimakasi sayangkuu karena sudah selalu menuruti permintaan tuan putri mu ini"},
-    { Image: img10, title: 'Desember 31, 2024', description: "'mas aku mau liat hanabi' gassss berangkat ke Bundaran HI, dan siapa sangka disana seperti lautan manusia sampe susah gerak haha terus kita baliknya jalan kaki. Maaf ya selalu merepotkan, sekali lagi terimakasi ya sayang<3"},
+    { Image: img8, title: 'Oktober 19, 2024', description: "That's My Birthday yuhuu~~ pas itu aku pengen naik bianglala aeon, yaa tetap kamu turutin walupun ini mahal ges :'' tapi aku tetep seneng bgt hari itu :3"},
+    { Image: img9, title: 'November 27, 2024', description: "Aku pengen bgt ke Bandung terus liat citylight bareng kamu dan yaa terimakasi sayangkuu karena sudah selalu menuruti permintaan tuan putri mu ini XD"},
+    { Image: img10, title: 'Desember 31, 2024', description: "'mas aku mau liat hanabi' gassss berangkat ke Bundaran HI, dan siapa sangka disana seperti lautan manusia sampe susah gerak haha. Maaf ya selalu merepotkan, sekali lagi terimakasi ya sayang<3"},
 
   ]
   return (
